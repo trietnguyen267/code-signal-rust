@@ -4,7 +4,7 @@
 //     assert_eq!(makeArrayConsecutive2(vec![0, 3]), 2);
 // }
 
-#[allow(non_snake_case)]
+#[allow(non_snake_case, dead_code)]
 fn makeArrayConsecutive2(statues: Vec<i32>) -> i32 {
     let mut result = 0;
     let mut array = statues.clone();

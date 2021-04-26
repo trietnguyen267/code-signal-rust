@@ -4,7 +4,7 @@
 //     assert_eq!(checkPalindrome(String::from("abab")), false);
 // }
 
-#[allow(non_snake_case)]
+#[allow(non_snake_case, dead_code)]
 fn checkPalindrome(inputString: String) -> bool {
     if inputString.chars().rev().collect::<String>() == inputString {
         return true;

@@ -2,7 +2,7 @@
 //     let vec = vec![3, 6, -2, -5, 7, 3];
 //     println!("{}", adjacent_elements_product(vec));
 // }
-
+#[allow(non_snake_case, dead_code)]
 fn adjacent_elements_product(input_array: Vec<i32>) -> i32 {
     let mut _result: i32 = std::i32::MIN;
     let mut product: i32 = std::i32::MIN;
@@ -19,6 +19,7 @@ fn adjacent_elements_product(input_array: Vec<i32>) -> i32 {
 }
 
 // Best
+#[allow(non_snake_case, dead_code)]
 fn adjacentElementsProduct(inputArray: Vec<i32>) -> i32 {
     inputArray
         .windows(2)
